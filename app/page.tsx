@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Question, QuestionInput, getQuestions, createQuestion, updateQuestion, deleteQuestion } from "./api/page";
+import { Question, QuestionInput, getQuestions, createQuestion, updateQuestion, deleteQuestion } from "@/lib/api";
 
 const QuestionsPage: React.FC = () => {
     const [questions, setQuestions] = useState<Question[]>([]);
