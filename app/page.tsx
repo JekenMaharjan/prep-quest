@@ -57,7 +57,7 @@ const QuestionsPage: React.FC = () => {
 
     return (
         <div style={{ padding: "40px 20px", maxWidth: "800px", margin: "auto", fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" }}>
-            <h1 className="text-3xl font-semibold" style={{ textAlign: "center", color: "#1f2937", marginBottom: "30px" }}>💡 Interview Questions</h1>
+            <h1 className="text-3xl font-semibold" style={{ textAlign: "center", color: "#1f2937", marginBottom: "30px" }}>Questions & Answers</h1>
 
             {/* Add New Question */}
             <div style={{
